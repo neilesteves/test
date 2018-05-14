@@ -20,6 +20,7 @@ $users = $users_table->find(
     ]
 );
 
+
 foreach ($users as $key => $user) {
     var_dump($user);
 }
